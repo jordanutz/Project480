@@ -1,0 +1,96 @@
+.worship-container {
+  padding: 2em;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e8f1f2;
+}
+
+.worship-container h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: Turnaround;
+  margin-bottom: .5em;
+  color: #F52F57;
+  font-weight: bolder;
+}
+
+
+.worship-module {
+  width: 70%;
+  height: auto;
+}
+
+.worship-module h2 {
+  font-family: Turnaround;
+  font-size: 3.5em;
+  margin-bottom: .25em;
+  display: flex;
+  justify-content: center;
+  color: #F52F57;
+  font-weight: bolder;
+  letter-spacing: 2px;
+
+}
+
+.nav-pills {
+  width: auto;
+}
+
+.nav-pills > li > a {
+  border-radius: 4px;
+  background: #eee;
+  cursor: default;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: bold;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+  color: #fff;
+  background-color: #23ABEF;
+}
+
+.tab-content > .active {
+  font-family: quicksand;
+  text-align: center;
+  padding: 1em;
+  color: black;
+}
+
+.worship-image {
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+.displayedtabs {
+  display: flex;
+  justify-content: center;
+}
+
+.editdelete-buttons {
+  width: 100%;
+  height: auto;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.addteammember-button {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 990px) {
+  .worship-container h1 {
+    font-size: 2.5em;
+  }
+  .worship-module h2 {
+    font-size: 2em;
+  }
+}

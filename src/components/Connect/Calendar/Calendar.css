@@ -1,0 +1,123 @@
+.two-container {
+  width: 100%;
+  min-height: 80vh;
+  background: #e8f1f2;
+  padding: 2em;
+}
+
+.location-container {
+  color: #222;
+  height: 60vh;
+}
+
+.google-container {
+  height: 45vh;
+}
+
+.google-text {
+  height: auto;
+  width: 100%;
+}
+
+.location-container h2 {
+  font-size: 60px;
+  font-family: Turnaround;
+  margin-bottom: .5em;
+  text-align: center;
+  font-weight: bolder;
+  color: #F52F57;
+}
+
+.calendar-container {
+  color: #222;
+  height: auto;
+}
+
+.calendar-container h2 {
+  font-size: 60px;
+  font-family: Turnaround;
+  font-weight: bolder;
+  margin-bottom: .5em;
+  color: #F52F57;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  font-family: quicksand;
+}
+
+.google-container {
+  position: none;
+}
+
+.events-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  margin-bottom: 1em;
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.19), 0px 4px 5px 0px rgba(0, 0, 0, 0.19), 0px 1px 10px 0px rgba(0, 0, 0, 0.19);
+  width: 100%;
+  height: auto;
+}
+
+.events-container h4 {
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 40vh;
+}
+
+.events-container h5 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.date-container {
+  width: 30%;
+  background: #23ABEF;
+  font-family: Turnaround;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  padding: 1.75em;
+  height: 100%;
+}
+
+.event-module {
+  width: 70%;
+  padding: .12em;
+  height: auto;
+}
+
+.event-module button {
+  margin-top: .25em;
+}
+
+
+@media screen and (max-width: 990px) {
+  .calendar-header {
+    margin-top: 5em;
+    width: 100%;
+    height: auto
+  }
+
+  .location-container {
+    height: 35vh;
+  }
+
+  .calendar-header h2 {
+    padding-top: .75em;
+  }
+}

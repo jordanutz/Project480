@@ -1,0 +1,35 @@
+.service-container {
+  width: 100%;
+  height: auto;
+  background: #061A40;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-container h1 {
+  font-size: 5em;
+  font-family: Turnaround;
+  margin-bottom: .25em;
+  color: #F52F57;
+  font-weight: bolder;
+}
+
+.service-container h2 {
+  font-size: 1.25em;
+  font-family: quicksand;
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  .service-container h1 {
+    font-size: 2.5em;
+  }
+  .service-container h2 {
+    font-size: 1em;
+    font-family: quicksand;
+    color: white;
+  }
+}

@@ -1,0 +1,19 @@
+.copyright-container {
+  color: white;
+  font-family: quicksand;
+  width: 100%;
+  background: #300799;
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+  height: auto;
+}
+
+.span-container {
+  max-width: 70vh;
+  text-align: center;
+}
+
+.span-container span {
+  font-size: .80em;
+}

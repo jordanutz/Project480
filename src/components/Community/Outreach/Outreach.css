@@ -1,0 +1,220 @@
+.outreach-background {
+  background-image: url('https://images5.alphacoders.com/841/thumb-1920-841717.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+.outreach-container {
+  width: 100%;
+  height: 50vh;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.outreach-container h1 {
+  font-size: 7em;
+  font-family: Turnaround;
+  color: #E3E3E3;
+}
+
+.outreach-about h3 {
+  font-family: Turnaround;
+  font-size: 4em;
+  display: flex;
+  color: white;
+  margin-bottom: .25em;
+}
+
+.filters-container {
+  min-width: 70%;
+  height: auto;
+}
+
+.panel-title {
+  font-size: 16px;
+  color: black;
+  font-family: quicksand;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.panel-info > .panel-heading {
+  border-color: #eee;
+}
+
+.outreach-text {
+  max-width: 70vh;
+  display: flex;
+  flex-direction: column;
+  font-family: quicksand;
+}
+
+.flex-filter {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.flex-outreach {
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.panel-body {
+  padding: .25em;
+  font-family: quicksand;
+  margin-left: .50em;
+
+}
+
+#selection-body {
+  padding: 1em;
+}
+
+.panel-info {
+  border-color: #E10047;
+}
+
+.form-control {
+  margin-right: 10em;
+  width: 100% !important;
+}
+
+#search-box {
+  background: #061A40;
+  border-radius: 5px;
+  padding: .5em;
+}
+
+#go {
+  font-size: 80px;
+  color: white;
+  font-size: 3em;
+  font-family: Turnaround;
+}
+
+.selection-container {
+  height: auto;
+  width: 80%;
+  color: black;
+}
+
+.panel-default > .panel-heading {
+  color: black;
+  background: #E8E8E8;
+  border: none;
+}
+
+.panel-default {
+    border-color: none;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+}
+
+.panel-group {
+  margin: 1em;
+}
+
+.panel-default > #custom-color {
+  background: #061A40;
+}
+
+.outreach-about {
+  width: 100%;
+  height: auto;
+  background: #F52F57;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+}
+
+.volunteer-profile {
+  width: 100%;
+  height: auto;
+  padding: 2em 0;
+  background: #E3E3E3;
+}
+
+.logo-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.outreachabout-text {
+  max-width: 55vh;
+  color: white;
+  font-family: quicksand;
+}
+
+.panel-heading > #custom-text {
+  font-family: turnaround;
+  font-size: 50px;
+  color: white;
+}
+
+.flex-search {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.eventbutton-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.student-loginbutton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.outreachbuttons-container {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width: 992px) {
+  .filters-container {
+    display: none;
+}
+}
+
+@media screen and (max-width: 992px) {
+  .outreach-container {
+    margin-bottom: -30px;
+  }
+
+  .outreach-container h1 {
+    font-size: 4em;
+  }
+
+  .outreach-about h3 {
+    font-size: 3em;
+  }
+
+  .outreach-about {
+    padding: 2em;
+  }
+
+.panel-heading > #custom-text {
+  font-size: 2.5em;
+}
+
+  .flex-outreach {
+    justify-content: center;
+  }
+
+  .selection-container {
+    width: 100%;
+  }
+}

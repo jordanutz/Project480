@@ -1,0 +1,90 @@
+.jumbotron {
+  background-image: url('https://i.redd.it/0h8ugco4g8301.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: right;
+  margin-bottom: 0px;
+}
+
+.community-container {
+  width: 100%;
+  height: 40vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.community-container h1 {
+  font-size: 7em;
+  font-family: Turnaround;
+  color: white;
+  font-weight: bolder;
+}
+
+.activities-container {
+  background: #eee;
+  width: 100%;
+  height: auto;
+  color: #222;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #e8f1f2;
+}
+
+.activities-module h2 {
+  font-family: Turnaround;
+  font-size: 3em;
+  color: #F52F57;
+  margin-bottom: .25em;
+  min-width: 50%;
+  text-align: center;
+
+}
+
+.activities-container button {
+  font-family: turnaround;
+  text-transform: uppercase;
+  color: #101010;
+  border: 1px solid #101010;
+  padding: 8px 16px;
+  min-width: 16px;
+  min-height: 5%;
+  text-transform: uppercase;
+  border: none;
+  font-size: 1.5em;
+  background: #23ABEF;
+  font-weight: bolder;
+  text-shadow: none;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.25), 0px 4px 5px 0px rgba(0, 0, 0, 0.25), 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+}
+
+.activities-container button:hover {
+  background: #8CD0F3;
+  transition: .5s;
+}
+
+.activities-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.activities-text {
+  max-width: 400px;
+  font-family: quicksand;
+}
+
+@media screen and (max-width: 700px) {
+  .activities-text {
+    text-align: left;
+  }
+  .community-container h1 {
+    font-size: 4em;
+  }
+}

@@ -1,0 +1,66 @@
+.footer-container {
+  background: #F52F57;
+  width: 100%;
+  height: auto;
+  margin-top: -5px;
+  color: #e8f1f2;
+  padding: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.profile-pic {
+  width: 10em;
+  height: 10em;
+  margin: 2em auto .5em auto;
+}
+
+.footer-secondary {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.footer-container Button {
+  background: transparent;
+  font-weight: bolder;
+  text-shadow: none;
+  color: white;
+}
+
+.footer-container Button:hover {
+  background: none;
+  color: white;
+}
+
+.footer-header {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-header img {
+  width: 4em;
+  height: 2em;
+  color: white;
+  margin: 1em -.50em;
+  transition: .5s ease-out;
+  cursor: pointer;
+}
+
+.footer-header img:hover {
+  width: 6em;
+  height: 3em;
+}
+
+.homepage-wrapper h2 {
+  font-weight: bold;
+  margin-bottom: .25em;
+}
+
+.homepage-wrapper a {
+  color: #e8f1f2;
+}
+
+@media screen and (max-width: 990px) {
+  .login-buttons {
+    display: none
+  }
+}

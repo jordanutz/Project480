@@ -1,0 +1,138 @@
+.group-container {
+  width: 100%;
+  height: auto;
+  background: #e8f1f2;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+}
+
+.group-container h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: Turnaround;
+  padding-bottom: .15em;
+  color: #F52F57;
+}
+
+.group-text {
+  max-width: 65vh;
+  font-family: quicksand;
+}
+
+.group-grid {
+  width: 100%;
+  height: auto;
+  background: #e8f1f2;
+  padding: 2em;
+}
+
+
+.register-button {
+  display: flex;
+  justify-content: center;
+  background: #e8f1f2;
+  width: 100%;
+  height: auto;
+  padding-bottom: 2em;
+}
+
+.register {
+  font-family: turnaround;
+  text-transform: uppercase;
+  color: #101010;
+  border: 1px solid #101010;
+  padding: 8px 16px;
+  min-width: 16px;
+  min-height: 5%;
+  text-transform: uppercase;
+  border: none;
+  font-size: 2em;
+  background: #23ABEF;
+  font-weight: bolder;
+  text-shadow: none;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.25), 0px 4px 5px 0px rgba(0, 0, 0, 0.25), 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+  border-radius: none;
+}
+
+.register:hover {
+  background: #8CD0F3;
+  transition: .5s;
+}
+
+.group-column {
+  font-family: quicksand;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.group-row {
+  padding: 1em 0;
+}
+
+
+.group-column h2 {
+  font-family: Turnaround;
+  font-size: 35px;
+  margin-bottom: .25em;
+  color: #2194FF;
+  font-weight: bolder;
+  background: #061A40;
+  color: #F52F57;
+  width: 100%;
+  padding-left: .5em;
+}
+
+.group-max {
+  max-width: 50vh;
+}
+
+.group-photo {
+  height: 20em;
+  width: 20em;
+  margin-left: 5em;
+}
+
+.photo-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 990px) {
+  .photo-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group-container h1  {
+    font-size: 3em;
+  }
+
+  .group-column {
+    font-family: quicksand;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .group-photo {
+    margin: 1.5em 0;
+  }
+
+  .group-text {
+    margin-bottom: -3em;
+  }
+
+  .group-column p {
+    text-align: left;
+  }
+
+  .group-grid h2 {
+    text-align: center;
+  }
+}

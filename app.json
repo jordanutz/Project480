@@ -1,0 +1,7 @@
+{
+    "name": "The Project 480",
+    "description": "Application for the Project 480",
+    "repository": "https://github.com/jordanutz/Project480.git",
+    "keywords": ["node", "Lexington", "Kentucky", "University of Kentucky"],
+    "image": "heroku/Project480", 
+}

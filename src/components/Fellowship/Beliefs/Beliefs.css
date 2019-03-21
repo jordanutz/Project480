@@ -1,0 +1,52 @@
+.values-container {
+  background: #e8f1f2;
+  width: 100%;
+  height: auto;
+  color: white;
+  padding: 2em;
+}
+
+.values-container h1 {
+  font-size: 3em;
+  font-family: Turnaround;
+  font-weight: bolder;
+  margin-bottom: .50em;
+  color: #F52F57;
+  text-align: center;
+}
+
+.values-module {
+  font-family: quicksand;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.values-module h2 {
+  font-family: Turnaround;
+  font-weight: bolder;
+  font-size: 2em;
+  background: #061A40;
+  padding: .10em;
+  min-width: 70%;
+  text-align: center;
+  color: #F52F57;
+}
+
+.values-module p {
+  max-width: 375px;
+  color: #101010;
+}
+
+.values-photo img {
+  width: 10em;
+  height: 10em;
+  margin-bottom: .50em;
+}
+
+@media screen and (max-width: 990px) {
+  .values-module p {
+    max-width: 30vh;
+  }
+}

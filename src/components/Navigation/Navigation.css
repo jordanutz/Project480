@@ -1,0 +1,152 @@
+.navigation {
+  background: #061A40;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, .5), 0px 4px 5px 0px rgba(0, 0, 0, .5), 0px 1px 10px 0px rgba(0, 0, 0, .5);
+  position: fixed;
+  z-index: 40;
+  top: 0;
+  font-family: quicksand;
+}
+
+.navigation-secondary {
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navigation-logo {
+  min-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F52F57;
+  font-size: 3em;
+  font-family: Turnaround;
+  padding-left: 1.5em;
+}
+
+.navigation-logo a {
+  color: #F52F57;
+  text-decoration: none;
+}
+
+.navigation-body {
+  min-width: 600px;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  padding-right: 1.5em;
+}
+
+.navigation-body ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.navigation-body li {
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navigation-body li a {
+  color: white;
+}
+
+.navigation-body li a:hover {
+  color: #F52F57;
+  text-decoration: none;
+}
+
+
+.navigation-dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.navigation-dropdown li {
+  width: 175px;
+  padding: .15em;
+  background: #061A40;
+  display: none;
+}
+
+.navigation-dropdown li:hover {
+  color: white;
+}
+
+li:hover > ul.navigation-dropdown li {
+  display: block;
+}
+
+.navigation-toggle {
+  display: none;
+}
+
+.navigation-menu {
+  display: none;
+}
+
+@media screen and (max-width: 760px) {
+  .navigation-toggle {
+    display: flex;
+    padding-right: 2em;
+    cursor: pointer;
+  }
+
+  .navigation-body {
+    display: none;
+  }
+
+  .navigation-menu {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background: rgba(6, 26, 64, .9);
+    position: absolute;
+    top: 80px;
+    animation: SlideRight .3s 0s linear;
+    animation-fill-mode: forwards;
+    z-index: 50;
+  }
+
+  .navigation-menu ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+  }
+
+  .navigation-menu li {
+    font-size: 2em;
+    color: white;
+    font-weight: bolder;
+  }
+
+  .navigation-menu li:hover {
+    color: #F52F57;
+  }
+}
+
+@keyframes SlideRight {
+  0% {
+    transform: translateX(-100%)
+  }
+  100% {
+    transform: translateX(20)
+  }
+}

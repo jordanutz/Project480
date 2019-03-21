@@ -1,0 +1,37 @@
+.mission-container {
+  background: #e8f1f2;
+  width: 100%;
+  height: auto;
+  color: #222;
+  padding: 2em 2em 0 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission-container h1 {
+  font-size: 5em;
+  font-family: Turnaround;
+  margin-bottom: .25em;
+  color: #F52F57;
+  font-weight: bolder;
+}
+
+.mission-container p {
+  font-family: Quicksand;
+}
+
+.mission-text {
+  max-width: 500px;
+}
+
+.about-photo {
+  width: 15em;
+  height: 15em;
+}
+
+@media screen and (max-width: 990px) {
+  .mission-container h1 {
+    font-size: 3em;
+  }
+}

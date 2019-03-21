@@ -1,0 +1,52 @@
+.pastor-container {
+  width: 100%;
+  height: auto;
+  background: #061A40;
+  padding: 2em;
+}
+
+.pastor-container h1 {
+  text-align: center;
+  font-size: 5em;
+  font-family: Turnaround;
+  margin-bottom: .5em;
+  color: #F52F57;
+  font-weight: bolder;
+}
+
+.pastor-section h2 {
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+}
+
+.pastor-section p {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+.elder-photo {
+  width: 15em;
+  height: 15em;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.aboutpastor-container {
+  max-width: 500px;
+}
+.pastor-module {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 990px) {
+  .pastor-container h1 {
+    font-size: 3em;
+  }
+}
