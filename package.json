@@ -40,21 +40,21 @@
   },
   "proxy": {
     "/callback": {
-      "target": "http://localhost:1993"
+      "target": "http://localhost:7300"
     },
     "/api": {
-      "target": "https://localhost:1993",
+      "target": "http://localhost:7300",
       "secure": false,
       "changeOrigin": true
     },
     "/send": {
-      "target": "http://localhost:1993"
+      "target": "http://localhost:7300"
     },
     "/charge": {
-      "target": "http://localhost:1993"
+      "target": "http://localhost:7300"
     },
     "upload": {
-      "target": "http://localhost:1993"
+      "target": "http://localhost:7300"
     }
   }
 }

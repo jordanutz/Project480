@@ -5,7 +5,6 @@ require('dotenv').config();
 const worship_controller = require('./worship_controller');
 const outreach_controller = require('./outreach_controller');
 const events_controller = require ('./events_controller')
-const creds = require('./email_configuration');
 const session = require('express-session');
 const axios = require('axios');
 const stripe = require("stripe")("sk_test_p1Bp9R0v7vhzSs0hhlBuofrA");
@@ -101,8 +100,8 @@ app.get('/auth/callback', (req, res) => {
 var transport = {
   host: 'smtp.gmail.com',
   auth: {
-    user: creds.USER,
-    pass: creds.PASS
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD
   }
 }
 
@@ -126,7 +125,7 @@ app.post('/send', (req, res, next) => {
 
   var mail = {
     from: name,
-    to: creds.USER,  //Change to email address that you want to receive messages on
+    to: process.env.EMAIL,  //Change to email address that you want to receive messages on
     subject: 'New Message from Contact Form',
     text: content,
     html: `${content}`
