@@ -1,7 +1,7 @@
 create table if not exists admin (
   id serial primary key,
-  auth0_id text unique not null
-  name varchar(100)
+  auth0_id text unique not null,
+  name varchar(100),
   email varchar(100)
 );
 
@@ -22,7 +22,7 @@ create table if not exists outreach (
   date varchar(100) not null,
   location varchar(100) not null,
   time varchar(100) not null,
-  description text not null,
+  description text not null
 );
 
 create table if not exists events (
@@ -31,8 +31,6 @@ create table if not exists events (
   date varchar(100) not null,
   time varchar(100) not null
 );
-
-
 
 
 insert into admin

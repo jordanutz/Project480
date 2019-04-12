@@ -27,7 +27,7 @@
 .giving-about {
   width: 100%;
   height: auto;
-  background: #F52F57;
+  background: #eee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@
   font-family: Turnaround;
   display: flex;
   justify-content: center;
-  color: white;
+  color: #F52F57;
   margin-bottom: .15em;
   text-align: center;
 }
@@ -47,7 +47,7 @@
 
 .givingabout-text {
   max-width: 55vh;
-  color: white;
+  color: #101010;
   font-family: quicksand;
 }
 
@@ -64,7 +64,7 @@
 .giving-module h2 {
   font-size: 3em;
   font-family: Turnaround;
-  color: #2194FF;
+  color: #F52F57;
 }
 
 .example {
@@ -142,7 +142,7 @@
   font-size: 3em;
   font-family: Turnaround;
   font-weight: bolder;
-  color: #2194FF;
+  color: #F52F57;
 }
 
 .giving-photo {
@@ -158,12 +158,13 @@
 }
 
 .amount-input {
-  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px, rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
   border-radius: 3px;
-  border: 1px solid #F3F3F3;
+  border: none;
+  border-bottom: 1px solid #F52F57;
   font-family: quicksand;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 990px) {
